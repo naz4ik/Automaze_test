@@ -4,7 +4,7 @@ A full-stack TODO application built as a technical test task (Junior Full-Stack 
 
 🎥 **Demo video:** [Watch here](https://drive.google.com/file/d/1oduWDywYozCgSWrQh9LBsOxsKDoF-O-e/view?usp=sharing)
 
-🔗 **Live demo:** _coming soon_
+🔗 **Live demo:** [Watch here]([https://drive.google.com/file/d/1oduWDywYozCgSWrQh9LBsOxsKDoF-O-e/view?usp=sharing](https://automaze-test-teal.vercel.app/))
 
 ## Features
 
