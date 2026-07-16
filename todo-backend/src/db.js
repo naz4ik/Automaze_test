@@ -9,12 +9,7 @@ export const client = process.env.DATABASE_URL
   ? new Sequelize(process.env.DATABASE_URL, {
       dialect: "postgres",
       logging: false,
-      dialectOptions: {
-        ssl: {
-          require: true,
-          rejectUnauthorized: false,
-        },
-      },
+      dialectOptions: { ssl: { require: true, rejectUnauthorized: false } },
     })
   : new Sequelize(
       isTest ? process.env.DB_NAME_TEST : process.env.DB_NAME,
