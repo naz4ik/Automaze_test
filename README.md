@@ -42,6 +42,13 @@ The backend is covered by an automated test suite (Vitest + Supertest) that runs
 
 **11/11 tests passing.**
 
+Run the suite:
+
+```bash
+cd todo-backend
+npm test
+```
+
 ## Project Structure
 .
 ├── todo-backend/     # Express API + PostgreSQL
