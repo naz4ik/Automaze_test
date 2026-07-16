@@ -29,6 +29,19 @@ A full-stack TODO application built as a technical test task (Junior Full-Stack 
 - Next.js + React + TypeScript
 - Tailwind CSS + shadcn/ui
 
+## Testing
+
+The backend is covered by an automated test suite (Vitest + Supertest) that runs against a dedicated test database, covering:
+
+- Creating, updating, and deleting tasks
+- Validation (rejecting a task without a title)
+- Filtering by status and searching by title
+- Sorting by priority (ascending / descending)
+- Toggling a single task and toggling all tasks
+- Deleting a single task and bulk-deleting completed tasks
+
+**11/11 tests passing.**
+
 ## Project Structure
 .
 ├── todo-backend/     # Express API + PostgreSQL
